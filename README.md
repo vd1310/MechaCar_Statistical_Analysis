@@ -39,6 +39,7 @@ total_summary <- suspension_table %>% summarize(Mean=mean(PSI),Median = median(P
 
 #### D2.3 RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot 
 lot_summary <- suspension_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median = median(PSI), Variance = var(PSI), StandardDev = sd(PSI), .groups = 'keep')
+
 ![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/D2.3.PNG)
 
 ### Additional visualizations that can conducted
