@@ -61,8 +61,9 @@ summary(lm_mcar)
 ## D4: Delieverable 4 - Study Design: MechaCar vs Competition
 #### Metric to be tested is mentioned
 #### Null hypothesis
-#### Statistical test
-#### The data for the statistical test
+#### Statistical test: Multiple linear regression is selected as statistical test to identify variance in dependent variable wrt to a combination of independent variables. Selected linear regression for predictive analysis. The linear regression model analyzes the relationship between the response or dependent variable and a set of independent or predictor variables. we will also use T test 
 
+#### The data for the statistical test
+The input data is numerical and data is normally distributed.
 
 
