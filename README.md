@@ -11,14 +11,14 @@
 ## Results: 
 ### D1: Delieverable 1
 #### D1.1: The MechaCar_mpg.csv file is imported and read into a dataframe 
-![alt text](https://github.com/vd1310/NY_Bike_TripData_Analysis/blob/main/d1.PNG)
+![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/D1.PNG)
 
 #### D1.2: RScript for a linear regression model to be performed on all six variables 
 lm_mcar<-lm(mpg~vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=MechaCar_df)
 
 #### D1.3: RScript for a linear regression model to be performed on all six variables 
 summary(lm_mcar)
-![alt text](https://github.com/vd1310/NY_Bike_TripData_Analysis/blob/main/d1.PNG)
+![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/d1.3.PNG)
 
 ### D1.4: Summary:
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
