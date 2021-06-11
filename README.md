@@ -56,6 +56,7 @@ summary(lm_mcar)
 ##### ![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/D3.PNG)
 
 #### D3.3: Summary of the t-test results across all manufacturing lots and for each lot
+##### P value for overall data is .06, for lot 1 is 1, for lot 2 is .6072 and for lot3 is .0416. We are focussing on callculated p-value in the t tests. Assuming our significance level was the common 0.05 percent, p-value for lot 3 is below our significance level. For Lot 1&2, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar (as p values for these lots are higher than our significance level)
 
 
 
