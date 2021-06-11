@@ -42,6 +42,5 @@ lot_summary <- suspension_table %>% group_by(Manufacturing_Lot) %>% summarize(Me
 
 ![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/D2.3.PNG)
 
-### Additional visualizations that can conducted
-##### 1
+#### D2.4 Summary Statistics on Suspension
 
