@@ -59,11 +59,14 @@ summary(lm_mcar)
 ##### P value for overall data is .06, for lot 1 is 1, for lot 2 is .6072 and for lot3 is .0416. We are focussing on callculated p-value in the t tests. Assuming our significance level was the common 0.05 percent, p-value for lot 3 is below our significance level. For Lot 1&2, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar (as p values for these lots are higher than our significance level)
 
 ## D4: Delieverable 4 - Study Design: MechaCar vs Competition
-#### Metric to be tested is mentioned
-#### Null hypothesis
+
+
+#### Metric to be tested : 
+
 #### Statistical test: Multiple linear regression is selected as statistical test to identify variance in dependent variable wrt to a combination of independent variables. Selected linear regression for predictive analysis. The linear regression model analyzes the relationship between the response or dependent variable and a set of independent or predictor variables. we will also use T test 
 
+#### Null hypothesis
+
 #### The data for the statistical test
-The input data is numerical and data is normally distributed.
 
 
