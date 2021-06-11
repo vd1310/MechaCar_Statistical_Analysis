@@ -32,10 +32,14 @@ According to the summary output, the r-squared value is  0.6825 in the simple li
 ### D2: Delieverable 2
 #### D2.1: Suspension_Coil.csv file is imported and read into a dataframe
 ![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/d2.1.PNG)
-## Summary: 
+
 #### D2.2 RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots
 total_summary <- suspension_table %>% summarize(Mean=mean(PSI),Median = median(PSI), Variance = var(PSI), StandardDev = sd(PSI))
 ![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/D2.2.PNG)
+
+#### D2.3 RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot 
+lot_summary <- suspension_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median = median(PSI), Variance = var(PSI), StandardDev = sd(PSI), .groups = 'keep')
+![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/D2.3.PNG)
 
 ### Additional visualizations that can conducted
 ##### 1
