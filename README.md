@@ -46,7 +46,7 @@ summary(lm_mcar)
 ##### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 ##### The overall mean is 1498.78 which is pretty close to 1500, Lot 1 specifically is better representation of the pouplation with mean of 1500, very less variance of .97 and standard deviation of .98. So Lot 1 meets the design specifications.
 
-### D3: Delieverable 3 - T-Tests on Suspension Coils 
+## D3: Delieverable 3 - T-Tests on Suspension Coils 
 #### D3.1: RScript for t-test that compares all manufacturing lots against mean PSI of the population
 ##### t.test(suspension_table$PSI, mu = 1500)
 #### D3.2: RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
@@ -58,7 +58,11 @@ summary(lm_mcar)
 #### D3.3: Summary of the t-test results across all manufacturing lots and for each lot
 ##### P value for overall data is .06, for lot 1 is 1, for lot 2 is .6072 and for lot3 is .0416. We are focussing on callculated p-value in the t tests. Assuming our significance level was the common 0.05 percent, p-value for lot 3 is below our significance level. For Lot 1&2, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar (as p values for these lots are higher than our significance level)
 
-
+## D4: Delieverable 4 - Study Design: MechaCar vs Competition
+#### Metric to be tested is mentioned
+#### Null hypothesis
+#### Statistical test
+#### The data for the statistical test
 
 
 
