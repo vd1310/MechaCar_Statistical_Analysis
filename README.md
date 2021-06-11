@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-### Purpose: AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. Use 'R' to perform data analytics to review the production data for insights that may help the manufacturing team
+### Purpose: Use 'R' to perform data analytics to review the production data for insights that may help the manufacturing team and test the prototype.
 ###### Use multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 ###### Create summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 ###### Run t-tests to determine if the manufacturing lots are statistically different from the mean population
