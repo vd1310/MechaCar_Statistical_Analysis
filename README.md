@@ -20,7 +20,7 @@ lm_mcar<-lm(mpg~vehicle_length + vehicle_weight + spoiler_angle + ground_clearan
 summary(lm_mcar)
 ![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/d1.3.PNG)
 
-### D1.4: Summary:
+#### D1.4: Summary:
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 According to our results, vehicle weight and AWD are statistically unlikely to provide random amounts of variance to the linear model. (Pr(>|t|) values)
 #### Is the slope of the linear model considered to be zero? Why or why not?
