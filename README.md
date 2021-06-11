@@ -22,11 +22,11 @@ summary(lm_mcar)
 
 ### D1.4: Summary:
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-
+According to our results, vehicle weight and AWD are statistically unlikely to provide random amounts of variance to the linear model
 #### Is the slope of the linear model considered to be zero? Why or why not?
 
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+According to the summary output, the r-squared value is  0.6825 in the simple linear regression modewhile the p-value is 5.35e-11
 
 ## Summary: 
 #### 
