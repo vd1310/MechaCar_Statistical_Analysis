@@ -44,4 +44,20 @@ lot_summary <- suspension_table %>% group_by(Manufacturing_Lot) %>% summarize(Me
 
 #### D2.4 Summary Statistics on Suspension
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
-The overall mean is 1498.78 which is pretty close to 1500, Lot 1 specifically is better representation of the pouplation with mean of 1500, very less variance of .97 and standard deviation of .98. Sp Lot 1 meets the design specifications.
+The overall mean is 1498.78 which is pretty close to 1500, Lot 1 specifically is better representation of the pouplation with mean of 1500, very less variance of .97 and standard deviation of .98. So Lot 1 meets the design specifications.
+
+### D3: Delieverable 3 - T-Tests on Suspension Coils 
+#### D3.1: RScript for t-test that compares all manufacturing lots against mean PSI of the population
+t.test(suspension_table$PSI, mu = 1500)
+#### D3.2: RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
+t.test(subset(suspension_table,Manufacturing_Lot=='Lot1')$PSI, mu = 1500)
+t.test(subset(suspension_table,Manufacturing_Lot=='Lot2')$PSI, mu = 1500)
+t.test(subset(suspension_table,Manufacturing_Lot=='Lot3')$PSI, mu = 1500)
+![alt text](https://github.com/vd1310/MechaCar_Statistical_Analysis/blob/main/D3.PNG)
+
+#### D3.3: Summary of the t-test results across all manufacturing lots and for each lot
+
+
+
+
+
